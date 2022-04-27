@@ -7,7 +7,6 @@ const TodoForm = ({ saveTodo }) => {
   const [value, setValue] = useState('')
   return (
     <>
-      <h1 className='todoheader'>To-Do List</h1>
       <div className='form'>
         <form
           className='todoform'
