@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand&family=Roboto:wght@100&display=swap');
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+.todoheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  font-size: 1.5rem;
+}
+.form {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todotextfield {
+  margin: 3px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+}
+.todoform .add-btn{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 5px;
+}
